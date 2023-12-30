@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #333;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background: #fff;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  .add-task {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .add-task input[type="text"] {
+    flex: 1;
+    padding: 8px;
+    font-size: 16px;
+  }
+  
+  .add-task button {
+    padding: 8px 15px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .task-item {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .task-item input[type="checkbox"] {
+    margin-right: 10px;
+    
+  }
+  
+  .task-item button {
+    margin-left: 10px;
+    
+    border: none;
+    border-radius: 3px;
+  }
+  
